@@ -1,0 +1,1 @@
+cmd_/home/derbes/Desktop/gitt/System-Programming2020/lab10/slab/slab.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/derbes/Desktop/gitt/System-Programming2020/lab10/slab/slab.ko /home/derbes/Desktop/gitt/System-Programming2020/lab10/slab/slab.o /home/derbes/Desktop/gitt/System-Programming2020/lab10/slab/slab.mod.o ;  true
